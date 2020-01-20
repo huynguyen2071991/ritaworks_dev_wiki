@@ -2,7 +2,7 @@
   <section>
     <Container>
       <div class="intro">
-        <h1>Welcome to Ritaworks Dev Team Wiki</h1>
+        <h1>Welcome to Ritaworks Dev Team</h1>
       </div>
     </Container>
     <Container flex>
