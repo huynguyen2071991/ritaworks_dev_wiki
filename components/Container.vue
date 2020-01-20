@@ -1,5 +1,5 @@
 <template>
-  <div class="container" :class="{ narrow, flex }">
+  <div :class="{ narrow, flex }" class="container">
     <slot />
   </div>
 </template>

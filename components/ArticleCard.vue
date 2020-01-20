@@ -1,5 +1,5 @@
 <template>
-  <article class="article-card" :class="[size, language]">
+  <article :class="[size, language]" class="article-card">
     <nuxt-link :to="`/blog/${articleInfo.link}`">
       <div class="card-inner">
         <p class="type">
