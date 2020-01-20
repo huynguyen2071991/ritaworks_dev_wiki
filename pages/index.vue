@@ -28,6 +28,14 @@ export default {
     Container
   },
 
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+      ]
+    }
+  },
+
   async asyncData({ app }) {
     async function awaitImport(blog) {
       const wholeMD = await import(`~/content/blog/${blog.slug}.md`)
